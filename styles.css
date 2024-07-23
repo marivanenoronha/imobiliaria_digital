@@ -72,7 +72,7 @@ a:hover {
     margin: 4px 0;
 }
 
- .menu-bg {
+.menu-bg {
     display: none;
     position: fixed;
     top: 0;
@@ -433,7 +433,8 @@ img {
     max-width: 365px;
     padding: 0.5rem;
     border-radius: 3px;
-    background: #f7f5f5;;
+    background: #f7f5f5;
+    ;
     margin-top: 0.5rem;
     border: 2px solid rgb(46, 45, 45);
 }
@@ -448,7 +449,9 @@ img {
     resize: none;
     top: 110px;
     padding: 5px;
-    background:#f7f5f5;;;
+    background: #f7f5f5;
+    ;
+    ;
     margin-top: 0.5rem;
     border: 2px solid rgb(46, 45, 45);
 }
@@ -487,17 +490,23 @@ footer {
 
 }
 
-@media(min-width: 375px) and  (max-width: 667px){
-    header h1{
-        font-size: 1.5rem;
-        color: red;
+@media  screen and (max-width: 768px) {
+    .container{
+        width: 375px;
+    }
+
+    header h1 {
+        position: relative;
+        font-size: 17px;
+        right: 50px;
        
+
     }
 
     .menu-toggle {
         display: flex;
         position: relative;
-        left: 430px;
+        left: 370px;
     }
 
     nav ul {
@@ -510,280 +519,282 @@ footer {
         top: 0;
         left: 0;
         z-index: 2;
+    }
+
+    nav ul.showing {
+        display: flex;
+    }
+
+    nav ul li a {
+        color: rgb(46, 45, 45);
+
+    }
+
+    nav ul.showing {
+        display: flex;
+    }
+
+    nav ul li {
+        text-align: left;
+        margin: 25px;
+
+    }
+
+    .about {
+        display: flex;
+    }
+
+    .about h1 {
+        position: relative;
+        font-size: 1.6rem;
+        margin-bottom: 230px;
+    }
+
+    .about p {
+        font-size: 11px;
+        top: 5px;
+    }
+
+    .about img {
+        width: 160px;
+        height: 110px;
+        margin-top: 20px;
+        right: 100px;
+    }
+
+    .service p {
+        position: relative;
+        font-size: 10px;
+    }
+
+    .service h1 {
+        font-size: 24px;
+    }
+
+    .recursos {
+        display: flex;
+    }
+
+    .recurso-item {
+        position: relative;
+        width: 160px;
+        height: 190px;
+        margin: 5px;
+
+    }
+
+    .recurso-item h3 {
+        position: relative;
+        font-size: 12px;
+    }
+
+    .recurso-item p {
+        font-size: 10px;
+    }
+
+    .recurso-item a {
+        font-size: 10px;
+    }
+
+    .beneficios {
+        display: flex;
+    }
+
+    .beneficio-item {
+        position: relative;
+        width: 160px;
+        height: 190px;
+        margin: 5px;
+    }
+
+    .beneficio-item h3 {
+        font-size: 12px;
+    }
+
+    .beneficio-item p {
+        font-size: 10px;
+    }
+
+    .beneficio-item a {
+        font-size: 10px;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .hero-item h2 {
+        font-size: 1.2rem;
+
+    }
+
+    .hero-item p {
+        position: relative;
+        font-size: 0.8rem;
+        margin-bottom: 35px;
+    }
+
+    .hero-foto {
+        display: flex;
+        width: auto;
+    }
+
+    .hero-foto img {
+        position: relative;
+        margin-bottom: 10px;
+        width: 468px;
+        height: 170px;
+        left: 6px;
+        top: 40px;
+
+    }
+
+    .portfolio {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .portfolio .item h3 {
+        font-size: 16px;
+        right: 40px;
+        top: 205px;
+    }
+
+    .portfolio .item p {
+        top: 226px;
+        font-size: 9px;
+        left: 140px;
+    }
+
+
+    .portfolio .item span {
+        position: relative;
+        font-size: 13px;
+        right: 50px;
+        top: 240px;
+    }
+
+    .item-foto {
+        width: auto;
+        text-align: left;
+    }
+
+    .item-foto img {
+        position: relative;
+        width: 290px;
+        height: 190px;
+        left: 5px;
+    }
+
+    .contact {
+        display: flex;
+
+    }
+
+    .contact .solicite h2 {
+        position: relative;
+        font-size: 1.5rem;
+        top: 320px;
+
+
+
+    }
+
+    .contact .solicite p {
+        position: relative;
+        font-size: 0.7rem;
+        left: 90px;
+        margin-bottom: 55px;
+
+    }
+
+    .contact .contact-info h3 {
+        position: relative;
+        font-size: 17px;
+        top: 380px;
+        left: 19px;
+
+    }
+
+    .contact .contact-info p {
+        font-size: 12px;
+        top: 380px;
+        left: 90px;
+
+    }
+
+    .contact .social-icons {
+        position: relative;
+        left: 90px;
+        font-size: 10px;
+        top: 370px;
+
+    }
+
+    .contact form {
+        display: flex;
+        flex-direction: column;
+        width: 450px;
+        height: 420px;
+        margin-left: 15px;
+    }
+
+    .contact label {
+        position: relative;
+        font-size: 14px;
+        left: 5px;
+
+    }
+
+    .contact .control-label {
+        left: 5px;
+        font-size: 14px;
+    }
+
+    .contact input {
+        width: 40%;
+        left: 5px;
+    }
+
+    .contact textarea {
+        width: 40%;
+        left: 5px;
+    }
+
+    .contact .btn {
+        font-size: 12px;
+        width: 80px;
+        height: 30px;
+        left: 10px;
+    }
+
+    footer {
+        font-size: 14px;
+        padding: 10px;
+    }
 }
 
-nav ul.showing {
-    display: flex;
-}
-
-nav ul li a {
-    color: rgb(46, 45, 45);
-    
-}
-
-nav ul.showing {
-    display: flex;
-}
-
-nav ul li {
-    text-align: left;
-    margin: 25px;
-
-}
-
-.about {
-    display: flex;
-}
-
-.about h1 {
-    font-size: 1.5rem;
-    margin-bottom: 100px;
-}
-
-.about p {
-    font-size: 12px;
-    top: 5px;
-}
-
-.about img {
-    width: 160px;
-    height: 110px;
-    margin-top: 20px;
-}
-
-.service p {
-
-    font-size: 0.6rem;
-}
-
-.service h1 {
-    font-size: 24px;
-}
-
-.recursos {
-    display: flex;
-}
-
-.recurso-item {
-    position: relative;
-    width: 160px;
-    height: 190px;
-    margin: 5px;
-
-}
-
-.recurso-item h3 {
-    position: relative;
-    font-size: 12px;
-}
-
-.recurso-item p {
-    font-size: 10px;
-}
-
-.recurso-item a {
-    font-size: 10px;
-}
-
-.beneficios {
-    display: flex;
-}
-
-.beneficio-item {
-    position: relative;
-    width: 160px;
-    height: 190px;
-    margin: 5px;
-}
-
-.beneficio-item h3 {
-    font-size: 12px;
-}
-
-.beneficio-item p {
-    font-size: 10px;
-}
-
-.beneficio-item a {
-    font-size: 10px;
-}
-
-.hero {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 15px;
-}
-
-.hero-item h2 {
-    font-size: 1.2rem;
-
-}
-
-.hero-item p {
-    position: relative;
-    font-size: 0.8rem;
-    margin-bottom: 35px;
-}
-
-.hero-foto {
-    display: flex;
-    width: auto;
-}
-
-.hero-foto img {
-    position: relative;
-    margin-bottom: 10px;
-    width: 468px;
-    height: 170px;
-    left: 6px;
-    top: 40px;
-
-}
-
-.portfolio {
-    display: flex;
-    flex-direction: column;
-}
-
-.portfolio .item h3 {
-    font-size: 16px;
-    right: 40px;
-    top: 205px;
-}
-
-.portfolio .item p {
-    top: 226px;
-    font-size: 9px;
-    left: 140px;
-}
 
 
-.portfolio .item span {
-    position: relative;
-    font-size: 13px;
-    right: 50px;
-    top: 240px;
-}
+@media (width: 375px) {
 
-.item-foto {
-    width: auto;
-    text-align: left;
-}
-
-.item-foto img {
-    position: relative;
-    width: 290px;
-    height: 190px;
-    left: 5px;
-}
-
-.contact {
-    display: flex;
-    
-}
-
-.contact .solicite h2{
-    position: relative;
-    font-size: 1.5rem;
-    top: 320px;
-
-   
-    
-}
-
-.contact .solicite p{
-    position: relative;
-    font-size: 0.7rem;
-    left: 90px;
-   margin-bottom: 55px;
-   
-}
-
-.contact .contact-info h3{
-    position: relative;
-    font-size: 17px;
-    top: 380px;
-    left: 19px;
-    
-}
-
-.contact .contact-info p{
-    font-size: 12px;
-    top: 380px;
-    left: 90px;
-   
-}
-
-.contact .social-icons{
-    position: relative;
-    left: 90px;
-    font-size: 10px;
-    top: 370px;
-   
-}
-
-.contact form{
-    display: flex;
-   flex-direction: column;
-    width: 450px;
-    height: 420px;
-    margin-left: 15px;
-}
-
-.contact label{
-    position: relative;
-    font-size: 14px;
-    left: 5px;
-   
-}
-
-.contact .control-label{
-    left: 5px;
-    font-size: 14px;
-}
-
-.contact input{
-   width: 40%;
-   left: 5px;
-}
-
-.contact textarea{
-    width: 40%;
-    left: 5px;
-}
-
-.contact .btn {
-    font-size: 12px;
-    width: 80px;
-    height: 30px;
-    left: 10px;
-}
-
-footer{
-    font-size: 14px;
-    padding: 10px;
-}
-}
-
-
-
-@media (min-width: 375px) and (max-width: 667px){
-   
-    .main{
+    .main {
         display: flex;
         align-items: center;
     }
 
-    .text{
+    .text {
         font-size: 1.5rem;
     }
 
-    .paragrafo{
+    .paragrafo {
         font-size: 0.8rem;
     }
 
-    .bt{
+    .bt {
         padding: 7px 30px;
     }
 }
@@ -791,35 +802,35 @@ footer{
 
 /*Pagina do contato*/
 
-.main{
-display: flex;
-align-items: center;
-justify-content: center;
-min-height: 100vh;
-background: rgb(54, 53, 53);
-flex-direction: column;
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgb(54, 53, 53);
+    flex-direction: column;
 }
 
-.text{
-font-size: 45px;
-color: #fff;
-margin-bottom: 30px;
+.text {
+    font-size: 45px;
+    color: #fff;
+    margin-bottom: 30px;
 }
 
-.paragrafo{
-color: #f7f5f5;
-margin-bottom: 50px;
+.paragrafo {
+    color: #f7f5f5;
+    margin-bottom: 50px;
 }
 
-.bt{
-padding: 15px  55px;
-background: #f7f5f5;
-text-decoration: none;
-color: black;
-font-size: 18px;
-transition: all 0.5s;
+.bt {
+    padding: 15px 55px;
+    background: #f7f5f5;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    transition: all 0.5s;
 }
 
 .bt:hover {
-border-radius: 16px;
- }
+    border-radius: 16px;
+}
