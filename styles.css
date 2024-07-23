@@ -491,6 +491,10 @@ footer {
 }
 
 @media  screen and (max-width: 768px) {
+
+    body{
+        overflow-x: hidden;
+    }
     .container{
         width: 375px;
     }
@@ -510,6 +514,7 @@ footer {
 
     nav ul {
         display: none;
+        overflow-x: hidden;
         flex-direction: column;
         width: 35%;
         height: 100%;
