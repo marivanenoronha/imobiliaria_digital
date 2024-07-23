@@ -497,8 +497,8 @@ footer {
 
     header h1 {
         position: relative;
-        font-size: 17px;
-        right: 50px;
+        font-size: 18px;
+        right: 20px;
        
 
     }
@@ -506,7 +506,7 @@ footer {
     .menu-toggle {
         display: flex;
         position: relative;
-        left: 370px;
+        left: 320px;
     }
 
     nav ul {
@@ -546,12 +546,17 @@ footer {
 
     .about h1 {
         position: relative;
+        text-align: center;
         font-size: 1.6rem;
+        margin-right: 60px;
         margin-bottom: 230px;
     }
 
     .about p {
+        position: relative;
         font-size: 11px;
+        text-align: center;
+       margin-right: 40px;
         top: 5px;
     }
 
@@ -577,18 +582,20 @@ footer {
 
     .recurso-item {
         position: relative;
-        width: 160px;
-        height: 190px;
+        width: 150px;
+        height: 180px;
+        left: 18px;
         margin: 5px;
 
     }
 
     .recurso-item h3 {
         position: relative;
-        font-size: 12px;
+        font-size: 11px;
     }
 
     .recurso-item p {
+        position: relative;
         font-size: 10px;
     }
 
@@ -602,8 +609,9 @@ footer {
 
     .beneficio-item {
         position: relative;
-        width: 160px;
+        width: 150px;
         height: 190px;
+        left: 18px;
         margin: 5px;
     }
 
@@ -616,8 +624,13 @@ footer {
     }
 
     .beneficio-item a {
+        position: relative;
         font-size: 10px;
+        top: 50px;
+
     }
+
+   
 
     .hero {
         display: flex;
