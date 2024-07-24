@@ -492,7 +492,7 @@ footer {
 
 @media  screen and (max-width: 768px) {
 
-    body{
+    body, html{
         overflow-x: hidden;
     }
     .container{
@@ -514,12 +514,11 @@ footer {
 
     nav ul {
         display: none;
-        overflow-x: hidden;
         flex-direction: column;
         width: 35%;
         height: 100%;
         background: #fff;
-        position: fixed;
+       position: fixed;
         top: 0;
         left: 0;
         z-index: 2;
@@ -560,7 +559,7 @@ footer {
         position: relative;
         font-size: 11px;
         text-align: center;
-       margin-right: 40px;
+       margin-right: 35px;
         top: 5px;
     }
 
