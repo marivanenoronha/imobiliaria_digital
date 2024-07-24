@@ -611,8 +611,9 @@ footer {
     .hero-foto img {
         position: relative;
         margin-bottom: 10px;
-        width: 438px;
+        width: 418px;
         height: 150px;
+        right: 5px;
         top: 40px;
 
     }
