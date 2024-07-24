@@ -615,32 +615,11 @@ footer {
         left: 15px;
         height: 120px;
         top: 40px;
-
     }
 
     .portfolio {
         display: flex;
         flex-direction: column;
-    }
-
-    .portfolio .item h3 {
-        font-size: 16px;
-        right: 40px;
-        top: 205px;
-    }
-
-    .portfolio .item p {
-        top: 226px;
-        font-size: 9px;
-        left: 140px;
-    }
-
-
-    .portfolio .item span {
-        position: relative;
-        font-size: 13px;
-        right: 50px;
-        top: 240px;
     }
 
     .item-foto {
@@ -650,10 +629,31 @@ footer {
 
     .item-foto img {
         position: relative;
-        width: 290px;
-        height: 190px;
-        left: 5px;
+        width: 330px;
+        height: 170px;
     }
+
+    .portfolio .item h3 {
+        font-size: 15px;
+        right: 220px;
+        top: 415px;
+    }
+
+    .portfolio .item p {
+        top: 373px;
+        font-size: 9px;
+        left: 70px;
+    }
+
+
+    .portfolio .item span {
+        position: relative;
+        font-size: 11px;
+        right: 225px;
+        top: 360px;
+    }
+
+    
 
     .contact {
         display: flex;
