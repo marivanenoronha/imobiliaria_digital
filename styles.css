@@ -490,19 +490,21 @@ footer {
 
 }
 
-@media  screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
-    body, html{
+    body,
+    html {
         overflow-x: hidden;
     }
-    .container{
+
+    .container {
         width: 375px;
     }
 
     header h1 {
         position: relative;
         font-size: 18px;
-       
+
 
     }
 
@@ -518,7 +520,7 @@ footer {
         width: 35%;
         height: 100%;
         background: #fff;
-       position: fixed;
+        position: fixed;
         top: 0;
         left: 0;
         z-index: 2;
@@ -558,15 +560,14 @@ footer {
     .about p {
         position: relative;
         font-size: 11px;
-        text-align: center;
-       margin-right: 35px;
-        top: 5px;
+        text-align: left;
+        top: 4px;
     }
 
     .about img {
         width: 160px;
         height: 110px;
-        margin-top: 20px;
+        margin-top: 23px;
         right: 100px;
     }
 
@@ -633,7 +634,7 @@ footer {
 
     }
 
-   
+
 
     .hero {
         display: flex;
