@@ -491,8 +491,8 @@ footer {
         position: relative;
         font-size: 12px;
         margin: 0.4rem;
-        left: 170px;
-        top: 20px;
+        left: 150px;
+        top: 25px;
     }
 
 
@@ -505,21 +505,22 @@ footer {
         text-align: center;
         font-size: 1.5rem;
         margin-right: 60px;
-        margin-bottom: 230px;
+        margin-bottom: 140px;
     }
 
     .about p {
-        position: relative;
+       position: relative;
         font-size: 11px;
         text-align: center;
         margin-right: 56px;
-        top: 4px;
+       margin-bottom: 170px;
     }
 
     .about img {
-        width: 160px;
-        height: 110px;
-        margin-top: 23px;
+        position: relative;
+        width: 170px;
+        height: 120px;
+        bottom: 253px;
         right: 100px;
     }
 
