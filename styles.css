@@ -616,8 +616,8 @@ footer {
         position: relative;
         margin-bottom: 10px;
         width: 328px;
-        left: 15px;
         height: 120px;
+        left: 15px;
         top: 40px;
     }
 
@@ -633,7 +633,7 @@ footer {
 
     .item-foto img {
         position: relative;
-        width: 330px;
+        width: 340px;
         height: 180px;
         top: 20px;
     }
@@ -641,7 +641,8 @@ footer {
     .portfolio .item h3 {
         font-size: 15px;
         right: 220px;
-        top: 360px;
+        line-height: 18px;
+        top: 352px;
     }
 
     .portfolio .item p {
