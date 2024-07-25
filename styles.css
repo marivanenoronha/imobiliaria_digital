@@ -677,14 +677,14 @@ footer {
     .contact .solicite p {
         position: relative;
         text-align: left;
-        left: 90px;
+        left: 80px;
         font-size: 0.7rem;
         top: 490px;
     }
 
     .contact .contact-info h3 {
         position: relative;
-        font-size: 16px;
+        font-size: 15px;
         top: 495px;
         text-align: left;
         left: 95px;
@@ -695,7 +695,7 @@ footer {
         text-align: left;
         font-size: 12px;
         top: 490px;
-        left: 95px;
+        left: 85px;
 
     }
 
