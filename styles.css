@@ -469,7 +469,6 @@ footer {
 
     .container {
         width: 375px;
-        background: #888080;
     }
 
     header {
@@ -668,8 +667,8 @@ footer {
 
     .contact .solicite h2 {
         position: relative;
-        font-size: 1.5rem;
-        top: 320px;
+        font-size: 1.4rem;
+        top: 240px;
 
 
 
@@ -677,73 +676,84 @@ footer {
 
     .contact .solicite p {
         position: relative;
-        font-size: 0.7rem;
+        text-align: left;
         left: 90px;
-        margin-bottom: 55px;
-
+        font-size: 0.7rem;
+        top: 490px;
     }
 
     .contact .contact-info h3 {
         position: relative;
-        font-size: 17px;
-        top: 380px;
-        left: 19px;
-
+        font-size: 16px;
+        top: 495px;
+        text-align: left;
+        left: 95px;
     }
 
     .contact .contact-info p {
+        position: relative;
+        text-align: left;
         font-size: 12px;
-        top: 380px;
-        left: 90px;
+        top: 490px;
+        left: 95px;
 
     }
 
     .contact .social-icons {
         position: relative;
-        left: 90px;
         font-size: 10px;
-        top: 370px;
+        left: 10px;
+        top: 470px;
 
     }
 
     .contact form {
         display: flex;
         flex-direction: column;
-        width: 450px;
-        height: 420px;
+        width: 340px;
+        height: 480px;
         margin-left: 15px;
     }
 
     .contact label {
         position: relative;
-        font-size: 14px;
-        left: 5px;
+        font-size: 13px;
+        left: 70px;
+        top: 80px;
 
     }
 
     .contact .control-label {
-        left: 5px;
-        font-size: 14px;
+        left: 70px;
+        font-size: 13px;
+        top: 80px;
     }
 
     .contact input {
-        width: 40%;
-        left: 5px;
+        position: relative;
+        width: 60%;
+        height: 25px;
+        left: 70px;
+        top: 70px;
+
     }
 
     .contact textarea {
-        width: 40%;
-        left: 5px;
+        width: 60%;
+        height: 45px;
+        top: 70px;
+        left: 70px;
     }
 
     .contact .btn {
-        font-size: 12px;
-        width: 80px;
-        height: 30px;
-        left: 10px;
+        font-size: 11px;
+        width: 65px;
+        height: 22px;
+        top: 75px;
+        left: 75px;
     }
 
-    footer p{
+    footer p {
         position: relative;
         font-size: 12px;
         padding: 15px;
