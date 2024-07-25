@@ -509,11 +509,11 @@ footer {
     }
 
     .about p {
-       position: relative;
+        position: relative;
         font-size: 11px;
         text-align: center;
         margin-right: 56px;
-       margin-bottom: 170px;
+        margin-bottom: 170px;
     }
 
     .about img {
@@ -744,9 +744,8 @@ footer {
     }
 
     footer {
-        font-size: 12px;
-      position: relative;
-      right: 5px;
+        font-size: 11px;
+        position: relative;
         padding: 10px;
     }
 }
