@@ -26,14 +26,15 @@ header {
 header h1 {
     flex-direction: column;
     color: rgb(51, 50, 50);
-    line-height: 10px;
-    padding: 15px;
+    margin-top: 30px;
+    line-height: 40px;
 }
 
 nav {
     position: relative;
-    bottom: 55px;
+    bottom: 50px;
 }
+
 
 nav ul {
     display: flex;
@@ -43,7 +44,7 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 1rem;
+    margin: 0 2rem;
 }
 
 nav ul li a {
@@ -468,28 +469,30 @@ footer {
 
     .container {
         width: 375px;
+        background: #888080;
     }
 
-    header{
+    header {
         display: flex;
     }
 
     header h1 {
         position: relative;
         font-size: 14px;
-       
-
+        line-height: 20px;
+        left: 5px;
     }
 
-    nav{
+    nav {
         display: flex;
     }
 
     nav ul li {
         position: relative;
         font-size: 12px;
-        margin: 0.5rem;
-       left: 130px;
+        margin: 0.4rem;
+        left: 170px;
+        top: 20px;
     }
 
 
@@ -654,7 +657,7 @@ footer {
         top: 300px;
     }
 
-    
+
 
     .contact {
         display: flex;
