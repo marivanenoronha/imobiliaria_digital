@@ -312,7 +312,7 @@ img {
     position: relative;
     font-size: 40px;
     text-align: center;
-    color: rgb(46, 45, 45);
+    color: rgb(77, 76, 76);
     top: 340px;
 
 }
@@ -321,7 +321,7 @@ img {
     position: relative;
     text-align: center;
     font-size: 20px;
-    color: rgb(46, 45, 45);
+    color: rgb(77, 76, 76);
     left: 250px;
     top: 385px;
 }
@@ -330,7 +330,7 @@ img {
     position: relative;
     text-align: center;
     font-size: 23px;
-    color: rgb(46, 45, 45);
+    color: rgb(77, 76, 76);
     left: 105px;
     top: 430px;
 }
@@ -338,7 +338,7 @@ img {
 .contact .contact-info p {
     text-align: center;
     position: relative;
-    color: rgb(46, 45, 45);
+    color: rgb(77, 76, 76);
     left: 200px;
     top: 430px;
 }
@@ -354,7 +354,7 @@ img {
 
 .social-icons a {
     margin: 0 1rem;
-    color: #333;
+    color: rgb(77, 76, 76);
     font-size: 1.5rem;
 }
 
@@ -372,7 +372,7 @@ img {
     margin-bottom: 170px;
     margin-left: 50px;
     background: #f7f5f5;
-    box-shadow: 10px 20px 20px orangered;
+    box-shadow: 10px 20px 20px rgb(46, 45, 45);
 
 }
 
@@ -381,7 +381,7 @@ img {
     left: 40px;
     top: 132px;
     padding: 2px;
-    color: rgb(46, 45, 45);
+    color: rgb(77, 76, 76);
     font-size: 18px;
 }
 
@@ -390,7 +390,7 @@ img {
     left: 40px;
     top: 122px;
     padding: 2px;
-    color: rgb(46, 45, 45);
+    color: rgb(77, 76, 76);
     font-size: 21px;
 }
 
@@ -404,9 +404,8 @@ img {
     padding: 0.5rem;
     border-radius: 3px;
     background: #f7f5f5;
-    ;
     margin-top: 0.5rem;
-    border: 2px solid rgb(46, 45, 45);
+    border: 1px solid rgb(77, 76, 76);
 }
 
 .contact textarea {
@@ -420,15 +419,13 @@ img {
     top: 110px;
     padding: 5px;
     background: #f7f5f5;
-    ;
-    ;
     margin-top: 0.5rem;
-    border: 2px solid rgb(46, 45, 45);
+    border: 1px solid rgb(77, 76, 76);
 }
 
 .btn {
     position: relative;
-    background: rgb(54, 54, 54);
+    background: rgb(77, 76, 76);
     color: #fff;
     border: none;
     font-size: 15px;
@@ -443,8 +440,8 @@ img {
 }
 
 .contact .btn:hover {
-    background: rgb(83, 82, 82);
-    color: rgb(15, 15, 15);
+    background: rgb(126, 124, 124);
+    color: rgb(53, 52, 52);
 
 }
 
