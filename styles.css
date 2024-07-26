@@ -501,6 +501,7 @@ footer {
         position: relative;
         text-align: center;
         font-size: 1.4rem;
+        line-height: 28px;
         margin-right: 60px;
         top: 10px;
        
@@ -530,6 +531,7 @@ footer {
 
     .service h1 {
         font-size: 24px;
+        line-height: 25px;
         top: 20px;
     }
 
@@ -622,7 +624,7 @@ footer {
         width: 338px;
         height: 120px;
         left: 10px;
-        top: 40px;
+        top: 70px;
     }
 
     .portfolio {
