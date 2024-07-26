@@ -758,29 +758,24 @@ footer {
         font-size: 12px;
         padding: 15px;
     }
-}
 
 
-
-@media (width: 375px) {
-
-    .main {
-        display: flex;
-        align-items: center;
-    }
-
-    .text {
-        font-size: 1.5rem;
+    /*Pagina do contato*/
+    .main .text {
+        font-size: 23px;
     }
 
     .paragrafo {
-        font-size: 0.8rem;
+        font-size:13px;
     }
 
-    .bt {
+    .main .bt {
         padding: 7px 30px;
+        font-size: 13px;
     }
 }
+
+
 
 
 /*Pagina do contato*/
@@ -794,18 +789,20 @@ footer {
     flex-direction: column;
 }
 
-.text {
+.text  {
     font-size: 45px;
     color: #fff;
     margin-bottom: 30px;
 }
 
-.paragrafo {
+.paragrafo{
     color: #f7f5f5;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 .bt {
+    position: relative;
     padding: 15px 55px;
     background: #f7f5f5;
     text-decoration: none;
@@ -817,3 +814,7 @@ footer {
 .bt:hover {
     border-radius: 16px;
 }
+
+
+
+    
