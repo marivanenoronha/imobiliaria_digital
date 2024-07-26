@@ -525,14 +525,14 @@ footer {
 
     .service p {
         position: relative;
-        font-size: 10px;
-        top: 20px;
+        font-size: 9px;
+        top: 52px;
     }
 
     .service h1 {
-        font-size: 24px;
-        line-height: 25px;
-        top: 20px;
+        font-size: 22px;
+        line-height: 20px;
+        top: 53px;
     }
 
     .recursos {
@@ -545,7 +545,7 @@ footer {
         height: 180px;
         left: 18px;
         margin: 5px;
-        top: 10px;
+        top: 60px;
 
     }
 
@@ -573,7 +573,7 @@ footer {
         height: 190px;
         left: 18px;
         margin: 5px;
-        top: 10px;
+        top: 60px;
     }
 
     .beneficio-item h3 {
@@ -598,18 +598,19 @@ footer {
         flex-direction: column;
         text-align: center;
         padding: 15px;
-        
     }
 
     .hero-item h2 {
         font-size: 14px;
         top: 22px;
+        top: 80px;
 
     }
 
     .hero-item p {
         position: relative;
         font-size: 0.6rem;
+        top: 80px;
         
     }
 
@@ -624,7 +625,7 @@ footer {
         width: 338px;
         height: 120px;
         left: 10px;
-        top: 70px;
+        top: 100px;
     }
 
     .portfolio {
@@ -641,18 +642,18 @@ footer {
         position: relative;
         width: 340px;
         height: 180px;
-        top: 20px;
+        top: 50px;
     }
 
     .portfolio .item h3 {
         font-size: 15px;
         right: 220px;
         line-height: 18px;
-        top: 352px;
+        top: 362px;
     }
 
     .portfolio .item p {
-        top: 318px;
+        top: 328px;
         font-size: 9px;
         left: 70px;
     }
@@ -662,7 +663,7 @@ footer {
         position: relative;
         font-size: 11px;
         right: 225px;
-        top: 300px;
+        top: 310px;
     }
 
 
@@ -713,6 +714,7 @@ footer {
         top: 470px;
 
     }
+
 
     .contact form {
         display: flex;
