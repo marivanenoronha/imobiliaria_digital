@@ -130,7 +130,7 @@ img {
     left: 70px;
     margin: 15px;
     width: 490px;
-    height: 350px;
+    height: 370px;
     border-radius: 15px;
     border: none;
     bottom: 80px;
@@ -150,6 +150,10 @@ img {
     top: 40px;
     font-size: 20px;
     color: whitesmoke;
+}
+
+.recurso-item .item-p{
+    top: 53px;
 }
 
 .recurso-item a {
