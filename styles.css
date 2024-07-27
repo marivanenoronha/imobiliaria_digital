@@ -494,7 +494,7 @@ footer {
 
     .about {
         display: flex;
-       
+
     }
 
     .about h1 {
@@ -504,7 +504,7 @@ footer {
         line-height: 28px;
         margin-right: 60px;
         top: 10px;
-       
+
     }
 
     .about p {
@@ -512,7 +512,7 @@ footer {
         font-size: 10px;
         text-align: center;
         margin-right: 56px;
-       
+
     }
 
     .about img {
@@ -611,7 +611,7 @@ footer {
         position: relative;
         font-size: 0.6rem;
         top: 80px;
-        
+
     }
 
     .hero-foto {
@@ -675,8 +675,8 @@ footer {
 
     .contact .solicite h2 {
         position: relative;
-        font-size: 1.4rem;
-        top: 240px;
+        font-size: 1.3rem;
+        top: 220px;
 
 
 
@@ -687,13 +687,13 @@ footer {
         text-align: left;
         left: 70px;
         font-size: 0.7rem;
-        top: 490px;
+        top: 460px;
     }
 
     .contact .contact-info h3 {
         position: relative;
         font-size: 15px;
-        top: 495px;
+        top: 470px;
         text-align: left;
         left: 95px;
     }
@@ -702,7 +702,7 @@ footer {
         position: relative;
         text-align: left;
         font-size: 12px;
-        top: 490px;
+        top: 465px;
         left: 75px;
 
     }
@@ -711,7 +711,7 @@ footer {
         position: relative;
         font-size: 10px;
         left: 10px;
-        top: 470px;
+        top: 445px;
 
     }
 
@@ -720,7 +720,7 @@ footer {
         display: flex;
         flex-direction: column;
         width: 340px;
-        height: 480px;
+        height: 455px;
         margin-left: 5px;
     }
 
@@ -728,14 +728,14 @@ footer {
         position: relative;
         font-size: 13px;
         left: 70px;
-        top: 80px;
+        top: 60px;
 
     }
 
     .contact .control-label {
         left: 70px;
         font-size: 13px;
-        top: 80px;
+        top: 60px;
     }
 
     .contact input {
@@ -743,14 +743,14 @@ footer {
         width: 60%;
         height: 25px;
         left: 70px;
-        top: 70px;
+        top: 50px;
 
     }
 
     .contact textarea {
         width: 60%;
         height: 45px;
-        top: 70px;
+        top: 50px;
         left: 70px;
     }
 
@@ -758,7 +758,7 @@ footer {
         font-size: 11px;
         width: 67px;
         height: 22px;
-        top: 75px;
+        top: 55px;
         left: 75px;
     }
 
@@ -775,7 +775,7 @@ footer {
     }
 
     .paragrafo {
-        font-size:13px;
+        font-size: 13px;
     }
 
     .main .bt {
@@ -798,13 +798,13 @@ footer {
     flex-direction: column;
 }
 
-.text  {
+.text {
     font-size: 45px;
     color: #fff;
     margin-bottom: 30px;
 }
 
-.paragrafo{
+.paragrafo {
     color: #f7f5f5;
     margin-bottom: 50px;
     text-align: center;
@@ -823,7 +823,3 @@ footer {
 .bt:hover {
     border-radius: 16px;
 }
-
-
-
-    
