@@ -138,7 +138,8 @@ img {
 
 .recurso-item h3 {
     position: relative;
-    top: 30px;
+    line-height: 13px;
+    top: 20px;
     color: whitesmoke;
     font-size: 28px;
 
@@ -146,7 +147,7 @@ img {
 
 .recurso-item p {
     position: relative;
-    top: 50px;
+    top: 40px;
     font-size: 20px;
     color: whitesmoke;
 }
@@ -168,8 +169,6 @@ img {
 .beneficio-item {
     position: relative;
     border: 1px solid;
-    background-color: rgba(238, 37, 10, 0.7);
-    filter: drop-shadow(10px 7px 8px rgba(238, 37, 10, 0.7));
     left: 70px;
     margin: 15px;
     width: 490px;
@@ -177,6 +176,8 @@ img {
     border-radius: 15px;
     border: none;
     bottom: 80px;
+    background-color: rgba(238, 37, 10, 0.7);
+    filter: drop-shadow(10px 7px 8px rgba(238, 37, 10, 0.7));
 }
 
 .beneficio-item h3 {
@@ -188,17 +189,20 @@ img {
 
 .beneficio-item p {
     position: relative;
-    top: 50px;
+    top: 55px;
     font-size: 20px;
     color: whitesmoke;
 }
 
 .beneficio-item a {
     position: relative;
-    top: 60px;
     color: whitesmoke;
     font-size: 20px;
     border-bottom: 1px solid whitesmoke;
+}
+
+.beneficio-item .item-a{
+    top: 25px;
 }
 
 .portfolio {
@@ -577,17 +581,22 @@ footer {
     }
 
     .beneficio-item h3 {
+        position: relative;
         font-size: 12px;
+        bottom: 25px;
+        top: 20px;
     }
 
     .beneficio-item p {
+        position: relative;
         font-size: 10px;
+        top: 30px;
     }
 
     .beneficio-item a {
         position: relative;
         font-size: 10px;
-        top: 50px;
+        top: 40px;
 
     }
 
