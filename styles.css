@@ -613,18 +613,17 @@ footer {
         top: 33px;
     }
 
-
-
     .hero {
         display: flex;
         flex-direction: column;
         text-align: center;
-        padding: 15px;
+        padding: 20px;
     }
 
     .hero-item h2 {
-        font-size: 14px;
-        top: 22px;
+        font-size: 15px;
+        line-height: 15px;
+        top: 18px;
         top: 80px;
 
     }
@@ -632,6 +631,7 @@ footer {
     .hero-item p {
         position: relative;
         font-size: 0.6rem;
+        padding-bottom: 15px;
         top: 80px;
 
     }
@@ -692,16 +692,12 @@ footer {
 
     .contact {
         display: flex;
-
     }
 
     .contact .solicite h2 {
         position: relative;
         font-size: 1.3rem;
         top: 220px;
-
-
-
     }
 
     .contact .solicite p {
