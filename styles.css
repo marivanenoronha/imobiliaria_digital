@@ -152,7 +152,7 @@ img {
     color: whitesmoke;
 }
 
-.recurso-item .item-p{
+.recurso-item .item-p {
     top: 90px;
 }
 
@@ -557,16 +557,24 @@ footer {
 
     .recurso-item h3 {
         position: relative;
+        line-height: 13px;
+        top: 20px;
         font-size: 11px;
     }
 
     .recurso-item p {
         position: relative;
         font-size: 10px;
+        top: 40px;
+    }
+
+    .recurso-item .item-p{
+       top: 50px;
     }
 
     .recurso-item a {
         font-size: 10px;
+        top: 50px;
     }
 
     .beneficios {
@@ -592,14 +600,17 @@ footer {
     .beneficio-item p {
         position: relative;
         font-size: 10px;
-        top: 30px;
+        top: 35px;
     }
 
     .beneficio-item a {
         position: relative;
         font-size: 10px;
-        top: 40px;
+        top: 50px;
+    }
 
+    .beneficio-item .item-a{
+        top: 33px;
     }
 
 
