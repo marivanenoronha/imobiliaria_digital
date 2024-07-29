@@ -517,7 +517,7 @@ footer {
         position: relative;
         font-size: 11px;
         text-align: center;
-        margin-right: 50px;
+        margin-right: 56px;
 
     }
 
@@ -784,6 +784,7 @@ footer {
     footer p {
         position: relative;
         font-size: 12px;
+        right: 20px;
         padding: 15px;
     }
 
