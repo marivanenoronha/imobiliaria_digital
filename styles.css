@@ -777,6 +777,7 @@ footer {
         width: 67px;
         height: 22px;
         top: 55px;
+        border-radius: 3px;
         left: 75px;
     }
 
