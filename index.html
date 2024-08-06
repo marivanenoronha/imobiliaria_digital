@@ -14,7 +14,7 @@
     <header>
         <div class="container">
             <h1>Desenvolvimento <br>de sites</h1>
-           
+
             <nav>
                 <ul class="nav-list" id="nav-list">
                     <li><a href="#about">Home</a></li>
@@ -58,7 +58,8 @@
 
                 <div class="recurso-item">
                     <h3>O melhor em SEO</h3>
-                    <p class="item-p">Site desenvolvido com as<br> melhores técnicas de otimização<br> para buscadores e conteúdo<br>
+                    <p class="item-p">Site desenvolvido com as<br> melhores técnicas de otimização<br> para buscadores e
+                        conteúdo<br>
                         otimizado para as palavras-<br>chave mais estratégicas.</p>
                     <a href="#contact">Solicitar proposta</a>
                 </div>
@@ -143,23 +144,28 @@
                 <div class="social-icons">
                     <a href="https://www.facebook.com/marivane.noronha" target="_blank"><i
                             class="fab fa-facebook"></i></a>
-                    <a href="https://www.instagram.com/marivane_noronha/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.instagram.com/marivane_noronha/" target="_blank"><i
+                            class="fab fa-instagram"></i></a>
                     <a href="https://www.linkedin.com/in/marivane-noronha-733881208/" target="_blank"><i
                             class="fab fa-linkedin"></i></a>
                     <a href="https://wa.me/5548991740401" target="_blank"><i class="fab fa-whatsapp"></i></a>
                 </div>
             </div>
-            <form action="https://api.staticforms.xyz/submit" method="post" >
-                <label>Nome:</label>
-                <input type="text" id="name" name="name" required>
-                <label>E-mail:</label>
-                <input type="email" id="email" name="email" required>
-                <label class="control-label">Mensagem:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
-                <button type="submit" class="btn">Enviar</button>
-
+            <form id="form-contact" action="https://api.staticforms.xyz/submit" method="POST">
                 <input type="hidden" name="accessKey" value="552d9b19-0434-44b2-a666-e0c9037b5a77">
                 <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/contact.html">
+
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit" class="btn">Enviar</button>
+
             </form>
         </div>
     </section>

@@ -382,52 +382,35 @@ img {
 
 }
 
-.contact label {
+label {
     position: relative;
-    left: 40px;
     top: 132px;
-    padding: 2px;
+    left: 65px;
     color: rgb(77, 76, 76);
-    font-size: 18px;
+    font-size: 20px;
 }
 
-.contact .control-label {
+input,
+textarea {
     position: relative;
-    left: 40px;
-    top: 122px;
-    padding: 2px;
-    color: rgb(77, 76, 76);
-    font-size: 21px;
-}
-
-
-.contact input {
-    position: relative;
-    left: 40px;
-    top: 120px;
+    padding: 10px;
+    border-radius: 4px;
+    left: 60px;
+    top: 130px;
     width: 100%;
     max-width: 365px;
-    padding: 0.5rem;
     border-radius: 3px;
     background: #f7f5f5;
-    margin-top: 0.5rem;
+    margin-bottom: 20px;
     border: 1px solid rgb(77, 76, 76);
 }
 
-.contact textarea {
-    position: relative;
-    left: 39px;
-    width: 100%;
-    border-radius: 3px;
-    max-width: 370px;
+
+textarea {
     overflow-y: hidden;
     resize: none;
-    top: 110px;
-    padding: 5px;
-    background: #f7f5f5;
-    margin-top: 0.5rem;
-    border: 1px solid rgb(77, 76, 76);
 }
+
 
 .btn {
     position: relative;
@@ -439,10 +422,8 @@ img {
     border-radius: 6px;
     height: 35px;
     width: 120px;
-    left: 45px;
+    left: 63px;
     top: 120px;
-
-
 }
 
 .contact .btn:hover {
@@ -451,17 +432,49 @@ img {
 
 }
 
-
-
-
 footer {
     position: relative;
     color: rgb(39, 38, 38);
     font-size: 17px;
     text-align: center;
-
-
 }
+
+/*pagina do contato*/
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #2e2e2e;
+    flex-direction: column;
+}
+
+.text{
+    font-size: 45px;
+    color: #f7f5f5;
+    margin-bottom: 10px;
+}
+
+.paragrafo{
+    color: #f7f5f5;
+    margin-bottom: 20px;
+}
+
+.bt{
+    padding: 10px 55px;
+    background: #f7f5f5;
+    text-decoration: none;
+    color: #1b1b1b;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+
+.bt:hover{
+    border-radius: 16px;
+    color: #1b1b1b;
+}
+
 
 @media screen and (max-width: 768px) {
 
@@ -568,8 +581,8 @@ footer {
         top: 40px;
     }
 
-    .recurso-item .item-p{
-       top: 50px;
+    .recurso-item .item-p {
+        top: 50px;
     }
 
     .recurso-item a {
@@ -609,7 +622,7 @@ footer {
         top: 50px;
     }
 
-    .beneficio-item .item-a{
+    .beneficio-item .item-a {
         top: 33px;
     }
 
@@ -697,39 +710,40 @@ footer {
     .contact .solicite h2 {
         position: relative;
         font-size: 1.3rem;
+        right: 18px;
         top: 220px;
     }
 
     .contact .solicite p {
         position: relative;
         text-align: left;
-        left: 70px;
+        left: 73px;
         font-size: 0.7rem;
-        top: 460px;
+        top: 450px;
     }
 
     .contact .contact-info h3 {
         position: relative;
         font-size: 15px;
-        top: 470px;
+        top: 455px;
         text-align: left;
-        left: 95px;
+        left: 75px;
     }
 
     .contact .contact-info p {
         position: relative;
         text-align: left;
         font-size: 12px;
-        top: 465px;
+        top: 452px;
         left: 75px;
 
     }
 
-    .contact .social-icons {
+    .contact .social-icons a{
         position: relative;
-        font-size: 10px;
-        left: 10px;
-        top: 445px;
+        font-size: 18px;
+       right: 225px;
+        top: 15px;
 
     }
 
@@ -742,43 +756,32 @@ footer {
         margin-left: 5px;
     }
 
-    .contact label {
-        position: relative;
-        font-size: 13px;
-        left: 70px;
-        top: 60px;
 
+    label {
+        left: 65px;
+        font-size: 13px;
+        top: 73px;
+        line-height: 10px;
     }
 
-    .contact .control-label {
-        left: 70px;
-        font-size: 13px;
-        top: 60px;
-    }
-
-    .contact input {
+    input,
+    textarea {
         position: relative;
         width: 60%;
-        height: 25px;
-        left: 70px;
-        top: 50px;
+        height: 30px;
+        left: 65px;
+        top: 75px;
 
     }
 
-    .contact textarea {
-        width: 60%;
-        height: 45px;
-        top: 50px;
-        left: 70px;
-    }
 
     .contact .btn {
         font-size: 11px;
-        width: 67px;
-        height: 22px;
-        top: 55px;
+        width: 65px;
+        height: 21px;
+        top: 60px;
         border-radius: 3px;
-        left: 75px;
+        left: 72px;
     }
 
     footer p {
@@ -788,58 +791,25 @@ footer {
         padding: 15px;
     }
 
-
-    /*Pagina do contato*/
-    .main .text {
-        font-size: 23px;
+    .main{
+        display: flex;
     }
 
-    .paragrafo {
+    .text{
+        font-size: 20px;
+    }
+
+    .paragrafo{
         font-size: 13px;
     }
 
-    .main .bt {
-        padding: 7px 30px;
+    .bt{
         font-size: 13px;
+       padding: 5px  25px;
     }
-}
 
+    .bt:hover{
+        color: #1b1b1b;
+    }
 
-
-
-/*Pagina do contato*/
-
-.main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    background: rgb(54, 53, 53);
-    flex-direction: column;
-}
-
-.text {
-    font-size: 45px;
-    color: #fff;
-    margin-bottom: 30px;
-}
-
-.paragrafo {
-    color: #f7f5f5;
-    margin-bottom: 50px;
-    text-align: center;
-}
-
-.bt {
-    position: relative;
-    padding: 15px 55px;
-    background: #f7f5f5;
-    text-decoration: none;
-    color: black;
-    font-size: 18px;
-    transition: all 0.5s;
-}
-
-.bt:hover {
-    border-radius: 16px;
 }
