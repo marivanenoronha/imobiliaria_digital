@@ -503,7 +503,7 @@ footer {
 
     nav ul li {
         position: relative;
-        font-size: 13px;
+        font-size: 14px;
         margin: 0.4rem;
         left: 135px;
         top: 25px;
@@ -527,7 +527,7 @@ footer {
 
     .about p {
         position: relative;
-        font-size: 11px;
+        font-size: 12px;
         text-align: center;
         margin-right: 56px;
 
@@ -685,7 +685,7 @@ footer {
 
     .portfolio .item p {
         top: 328px;
-        font-size: 9px;
+        font-size: 10px;
         left: 70px;
     }
 
