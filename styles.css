@@ -22,6 +22,12 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+.logo img{
+    position: relative;
+    width:80px;
+    height: 80px;
+    top: 20px;
+}
 
 header h1 {
     flex-direction: column;
@@ -489,6 +495,12 @@ footer {
     header {
         display: flex;
     }
+    .logo img{
+        height: 30px;
+        width: 30px;
+        left: 30px;
+        top: 25px;
+    }
 
     header h1 {
         position: relative;
@@ -505,8 +517,8 @@ footer {
         position: relative;
         font-size: 14px;
         margin: 0.4rem;
-        left: 135px;
-        top: 25px;
+        left: 120px;
+        top: 35px;
     }
 
 
